@@ -1,0 +1,117 @@
+:root{
+--blue: #4A4F83;
+--purple: #834A6B;
+--brown: #837E4A;
+--green: #4A8361;
+--white: #ffff;
+--black: #0000;
+--grey: #5A5A5A;
+}
+
+main{
+    display: block;
+    margin: 0px;
+    background-color: var(--grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--white);
+
+}
+/* navbar styling start */
+#navbar{
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: var(--grey);
+    width: 100vw;
+    height:8vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    background-color: var(--grey);
+    margin: 2rem;
+}
+
+.nav-obj{
+    color: var(--white);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+a:hover.nav-obj{
+    background-color: var(--blue);
+    color: var(--white);
+}
+#namediv{
+    margin-left: 1.5rem;
+    color: var(--white);
+    font-family: Calibri;    
+}
+/* navbar styling end*/
+
+/* sections styling start*/
+body{
+    display: block;
+    margin: 0px;
+    background-color: var(--grey);
+
+}
+#welcome-box{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    display: flex;
+    margin-top: 0px;
+    background-color: var(--grey);
+    height: 99vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-between;
+    border-bottom:groove;
+    border-bottom-width: 1px;
+    border-bottom-color: var(--white);
+}
+#devimg{
+    width: 40vw;
+    height: 50vh;
+    margin-left: 5vw;
+    justify-self: center;
+    align-self: center;;
+    
+    
+}
+/* Welcome Section part of flexbox '#welcome-box' */
+#welcome-section{
+    align-self: start;
+    justify-self: center;
+}
+        #hello{
+            margin-right: 5vw;
+            color: var(--white);
+            width: 40vw;
+            font-size:80px;
+        }
+        .aboutme{
+            margin-right: 5vw;
+            font-size: 30px;
+            color: var(--white);
+            width: 40vw;
+        }
+        a {
+            text-decoration: none;
+        }
+
+/* Next need to style project section. Want to make sure project images are same size, with large 'label' under image - clicking on either will link to actual project page */
+      
+
+
+
+
+
+    
+
+
